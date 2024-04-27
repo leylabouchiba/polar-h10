@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "295502453339",
+    "firebase_url": "https://app-polar-h10-3afd1-default-rtdb.firebaseio.com",
+    "project_id": "app-polar-h10-3afd1",
+    "storage_bucket": "app-polar-h10-3afd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295502453339:android:f06e2ad15ce7a249a3fd7e",
+        "android_client_info": {
+          "package_name": "com.hatofit.hatofit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1vhpIG7uXUwGJVpcB-8nlhTzHOxXFA0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
