@@ -49,7 +49,7 @@ class InputUserMetricController extends GetxController {
 
     previousData.toJson().removeWhere((key, value) => value == null);
     final Response response =
-    await InternetService().registerUser(previousData);
+        await InternetService().registerUser(previousData);
     if (response.body['success'] == true) {
       try {
         final loginResponse = await InternetService().loginUser(previousData);
@@ -70,7 +70,8 @@ class InputUserMetricController extends GetxController {
           }
 
           MySnackbar.success('Success', 'You have successfully registered');
-          Get.offAllNamed(AppRoutes.dashboard);
+
+          Get.offAllNamed(AppRoutes.dashboardCoach);
         } else {
           MySnackbar.error('Error', loginResponse.body['message']);
         }

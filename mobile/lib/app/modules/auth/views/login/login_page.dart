@@ -208,9 +208,9 @@ class _BreathingAnimationState extends State<BreathingAnimation>
       scale: _scaleAnimation,
       child: Image.asset(
         Get.isDarkMode
-            ? 'assets/images/logo/dark.png'
-            : 'assets/images/logo/light.png',
-        width: Get.width * 0.6,
+            ? 'assets/images/logo/Logo.png'
+            : 'assets/images/logo/Logo.png',
+        width: Get.width * 0.8,
       ),
     );
   }

@@ -12,6 +12,8 @@ exports.UserSchema = zod_1.z.object({
     weight: zod_1.z.string(),
     height: zod_1.z.string(),
     gender: zod_1.z.enum(["male", "female"]),
+    isCoach: zod_1.z.enum(["Coach", "User"]),
+
     metricUnits: zod_1.z
         .object({
         energyUnits: zod_1.z.string(),

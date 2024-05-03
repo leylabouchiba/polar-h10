@@ -10,7 +10,6 @@ class RegisterPage extends GetView<RegisterController> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       resizeToAvoidBottomInset: true,
       body: SingleChildScrollView(
@@ -111,6 +110,30 @@ class RegisterPage extends GetView<RegisterController> {
                                 ),
                               ),
                             ),
+                            const SizedBox(height: 48),
+
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                _buildisCoachItem(
+                                  context,
+                                  'assets/images/avatar/Coach.png',
+                                  'Coach',
+                                  ColorConstants.male,
+                                ),
+                                const SizedBox(
+                                  width: 8,
+                                ),
+                                _buildisCoachItem(
+                                  context,
+                                  'assets/images/avatar/User.png',
+                                  'User',
+                                  ColorConstants.female,
+                                ),
+                              ],
+                            ),
+
+                            ///////////////
                             const SizedBox(height: 16),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -399,6 +422,51 @@ class RegisterPage extends GetView<RegisterController> {
             ),
             Text(
               gender.capitalizeFirst!,
+              style: Theme.of(context)
+                  .textTheme
+                  .headlineLarge
+                  ?.copyWith(letterSpacing: 1.5, fontWeight: FontWeight.w500),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildisCoachItem(BuildContext context, String svgAsset,
+      String isCoach, Color genderColor) {
+    final isSelected = controller.selectedisCoach.value == isCoach;
+
+    return GestureDetector(
+      onTap: () {
+        controller.selectisCoach(isCoach);
+      },
+      child: AnimatedContainer(
+        width: 100,
+        height: 145,
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeInOut,
+        margin: const EdgeInsets.only(left: 8, right: 8),
+        padding: const EdgeInsets.all(8),
+        decoration: BoxDecoration(
+          border: Border.all(
+            width: 2,
+            color: isSelected ? genderColor : Colors.grey.withOpacity(0.5),
+          ),
+          borderRadius: const BorderRadius.all(
+            Radius.circular(32),
+          ),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Image.asset(
+              svgAsset,
+              width: 84,
+              height: 84,
+            ),
+            Text(
+              isCoach.capitalizeFirst!,
               style: Theme.of(context)
                   .textTheme
                   .headlineLarge

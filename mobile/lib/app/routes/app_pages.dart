@@ -9,7 +9,9 @@ import 'package:hatofit/app/modules/auth/views/register/input_user_metric/input_
 import 'package:hatofit/app/modules/auth/views/register/input_user_metric/input_user_metric_page.dart';
 import 'package:hatofit/app/modules/auth/views/register/register_binding.dart';
 import 'package:hatofit/app/modules/auth/views/register/register_page.dart';
+import 'package:hatofit/app/modules/dashboard/dashboardCoach.dart';
 import 'package:hatofit/app/modules/dashboard/dashboard_binding.dart';
+import 'package:hatofit/app/modules/dashboard/dashboard_bindingCoach.dart';
 import 'package:hatofit/app/modules/dashboard/dashboard_page.dart';
 import 'package:hatofit/app/modules/dashboard/views/history/history_page.dart';
 import 'package:hatofit/app/modules/dashboard/views/home/home_page.dart';
@@ -75,6 +77,12 @@ class AppPages {
       name: AppRoutes.dashboard,
       page: () => const DashboardPage(),
       bindings: [DashboardBinding(), ServicesBinding()],
+      transition: Transition.cupertino,
+    ),
+     GetPage(
+      name: AppRoutes.dashboardCoach,
+      page: () => const dashboardCoach(),
+      bindings: [DashboardBindingCoach(), ServicesBinding()],
       transition: Transition.cupertino,
     ),
     GetPage(

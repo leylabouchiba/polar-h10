@@ -10,6 +10,7 @@ import 'package:hatofit/utils/image_utils.dart';
 class RegisterController extends GetxController {
   final formKey = GlobalKey<FormState>();
   final selectedGender = ''.obs;
+  final selectedisCoach = ''.obs;
   final firstNameController = TextEditingController();
   final lastNameController = TextEditingController();
   final dateOfBirthController = TextEditingController();
@@ -19,9 +20,10 @@ class RegisterController extends GetxController {
   final userDateOfBirth = DateTime.now().obs;
   final formattedDate = ''.obs;
   final isGenderSelected = false.obs;
+  final isCoachSelected = false.obs;
+
   final pickedImageBase64 = ''.obs;
   final Rx<File> pickedImage = Rx<File>(File(''));
-
 
   @override
   void onClose() {
@@ -48,11 +50,17 @@ class RegisterController extends GetxController {
     isGenderSelected.value = true;
   }
 
+  void selectisCoach(String isCoach) {
+    selectedisCoach.value = isCoach;
+    isCoachSelected.value = true;
+  }
+
   void saveUserInfo() {
     final UserModel authModel = UserModel(
       firstName: firstNameController.text,
       lastName: lastNameController.text,
       gender: selectedGender.value,
+      isCoach: selectedisCoach.value,
       dateOfBirth: userDateOfBirth.value,
       photo: pickedImageBase64.value,
       email: emailController.text,

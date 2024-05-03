@@ -24,7 +24,7 @@ class InternetService extends GetConnect {
     return this;
   }
 
-  static const String _base = "http://192.168.137.1:3000/api";
+  static const String _base = "http://192.168.1.17:3000/api";
   // static const String _base = 'http://192.168.124.169:3000/api';
   static const String _sesion = '/session';
   static const String _exercise = '/exercise';

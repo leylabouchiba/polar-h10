@@ -9,6 +9,7 @@ class UserModel {
   String? firstName;
   String? lastName;
   String? gender;
+  String? isCoach;
   String? email;
   String? password;
   String? confirmPassword;
@@ -24,6 +25,7 @@ class UserModel {
     this.firstName,
     this.lastName,
     this.gender,
+    this.isCoach,
     this.email,
     this.password,
     this.confirmPassword,
