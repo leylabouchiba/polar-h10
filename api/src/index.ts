@@ -118,7 +118,7 @@ const args = process.argv.slice(2);
           await bucket.delete(new mongoose.Types.ObjectId(user.photo));
         }
         await User.deleteOne({ _id: user._id });
-      }
+      } 
     }
   });
 

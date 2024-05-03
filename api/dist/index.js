@@ -7,7 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
-};  
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -39,7 +39,7 @@ const args = process.argv.slice(2);
         dbName: process.env.MONGO_DB_NAME || "",
     });
     console.log("📚 connected to mongodb");
-    // options 
+    // options
     if (args.includes("--reset")) {
         const collections = yield mongoose_1.default.connection.db.collections();
         for (const collection of collections) {
@@ -92,8 +92,8 @@ const args = process.argv.slice(2);
         const users = yield db_1.User.find({
             deletedAt: { $lt: new Date() },
             requestDelete: true,
-        });  
-        for (const user of users) { 
+        });
+        for (const user of users) {
             if (user._id &&
                 user.requetDelete &&
                 user.deleteDate !== undefined &&

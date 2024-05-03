@@ -88,9 +88,11 @@ const ApiAuth = ({ route }) => {
             // dateOfBirth
             const dateOfBirth = req.body.dateOfBirth || "";
             req.body.dateOfBirth = (0, dayjs_1.default)(dateOfBirth, "mm/dd/yyyy").toDate();
-            const user = user_1.UserSchema.parse(req.body);
+
+            const newUser = {...req.body, height: req.body.height.toString(), weight: req.body.weight.toString()}
+            const user = user_1.UserSchema.parse(newUser);
             // check in db
-            const userInDb = yield db_1.User.findOne({
+            const userInDb = yield db_1.User.findOne({ 
                 email: user.email,
             });
             if (userInDb) {
