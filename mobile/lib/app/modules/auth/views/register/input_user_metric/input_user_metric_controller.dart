@@ -70,8 +70,11 @@ class InputUserMetricController extends GetxController {
           }
 
           MySnackbar.success('Success', 'You have successfully registered');
-
-          Get.offAllNamed(AppRoutes.dashboardCoach);
+          if (user.isCoach == 'User') {
+            Get.offAllNamed(AppRoutes.dashboard);
+          } else {
+            Get.offAllNamed(AppRoutes.dashboardCoach);
+          }
         } else {
           MySnackbar.error('Error', loginResponse.body['message']);
         }

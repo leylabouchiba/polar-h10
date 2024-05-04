@@ -37,7 +37,7 @@ class InternetService extends GetConnect {
   static const String _forgetPassword = '/auth/forgot-password';
   static const String _verifyCode = '/auth/verify-code';
   static const String _resetPassword = '/auth/reset-password';
-
+  static const String _users = '/auth/users';
   Future<int?> postSession(SessionModel body) async {
     final json = body.toJson();
     json.removeWhere((key, value) => value == null);
@@ -60,7 +60,8 @@ class InternetService extends GetConnect {
     }
   }
 
-  Future<List<ExerciseModel>?> fetchExercises({required bool showFromCompany}) async {
+  Future<List<ExerciseModel>?> fetchExercises(
+      {required bool showFromCompany}) async {
     try {
       final response = await get(
         "$_base$_exercise?showFromCompany=$showFromCompany",
@@ -231,6 +232,22 @@ class InternetService extends GetConnect {
         }),
         headers: {
           'Content-Type': 'application/json',
+        },
+      );
+      return response;
+    } catch (e) {
+      return Response(body: 'Error $e');
+    }
+  }
+
+  // fetch users
+  Future<Response> fetchAllUsers() async {
+    try {
+      final response = await get(
+        '$_base$_users',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer $token',
         },
       );
       return response;

@@ -5,6 +5,7 @@ import 'package:hatofit/app/modules/dashboard/dashboard_controller.dart';
 import 'package:hatofit/app/modules/dashboard/dashboard_controllerCoach.dart';
 import 'package:hatofit/app/modules/dashboard/views/history/history_page.dart';
 import 'package:hatofit/app/modules/dashboard/views/home/home_page.dart';
+import 'package:hatofit/app/modules/dashboard/views/list%20user/FetchAllUsersPage%20.dart';
 import 'package:hatofit/app/modules/dashboard/views/settings/setting_page.dart';
 import 'package:hatofit/app/modules/dashboard/views/workout/workout_page.dart';
 
@@ -19,9 +20,9 @@ class dashboardCoach extends StatelessWidget {
           body: SafeArea(
             child: IndexedStack(
               index: controller.tabIndex,
-              children: const [
-                HomePage(),
-                SettingPage(),
+              children: [
+                FetchAllUsersPage (),
+                const SettingPage(),
               ],
             ),
           ),

@@ -69,8 +69,11 @@ class LoginController extends GetxController {
           }
 
           MySnackbar.success('Success', 'Welcome back ${user.firstName}');
-
-          Get.offAllNamed(AppRoutes.dashboard);
+          if (user.isCoach == 'User') {
+            Get.offAllNamed(AppRoutes.dashboard);
+          } else {
+            Get.offAllNamed(AppRoutes.dashboardCoach);
+          }
         } else {
           MySnackbar.error('Error', body['message']);
         }

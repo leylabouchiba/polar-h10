@@ -14,6 +14,7 @@ const report_1 = require("./api/report");
 const session_1 = require("./api/session");
 const InitRoutes = (app) => {
     // routes
+    
     const root = new express_route_grouping_1.default("/", express_1.default.Router());
     root.group("/", (app) => {
         app.get("/", (req, res) => {

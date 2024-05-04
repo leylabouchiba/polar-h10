@@ -87,6 +87,8 @@ const UserSchema = new mongoose_1.Schema({
     weight: Number,
     height: Number,
     gender: String,
+    isCoach: String,
+
     metricUnits: {
         energyUnits: String,
         weightUnits: String,

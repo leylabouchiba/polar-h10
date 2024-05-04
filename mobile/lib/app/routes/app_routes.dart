@@ -7,7 +7,7 @@ abstract class AppRoutes {
   static const String forgotPassword = '/splash/forgotPassword';
 
   static const String dashboard = '/';
-  static const String dashboardCoach = '/';
+  static const String dashboardCoach = '/dashboardCoach';
 
   static const String home = '/home';
 
