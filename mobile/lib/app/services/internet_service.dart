@@ -24,7 +24,7 @@ class InternetService extends GetConnect {
     return this;
   }
 
-  static const String _base = "http://192.168.1.17:3000/api";
+  static const String _base = "http://192.168.1.55:3000/api";
   // static const String _base = 'http://192.168.124.169:3000/api';
   static const String _sesion = '/session';
   static const String _exercise = '/exercise';
@@ -240,11 +240,11 @@ class InternetService extends GetConnect {
     }
   }
 
-  // fetch users
+// fetch users
   Future<Response> fetchAllUsers() async {
     try {
       final response = await get(
-        '$_base$_users',
+        '$_base$_users?isCoach=User',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token',
