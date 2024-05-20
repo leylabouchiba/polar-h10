@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/user_model.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/app/themes/app_theme.dart';
-import 'package:hatofit/utils/snackbar.dart';
+import 'package:VirtualCoach/app/models/user_model.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/themes/app_theme.dart';
+import 'package:VirtualCoach/utils/snackbar.dart';
 
 import '../../../../../../utils/image_utils.dart';
 import '../../../../../routes/app_routes.dart';

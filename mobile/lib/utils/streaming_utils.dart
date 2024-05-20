@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/session_model.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/services/storage_service.dart';
+import 'package:VirtualCoach/app/models/session_model.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/services/storage_service.dart';
 import 'package:intl/intl.dart';
 
 class StreamingUtils {

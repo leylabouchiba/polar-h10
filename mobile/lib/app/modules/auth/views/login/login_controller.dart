@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/user_model.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/utils/image_utils.dart';
-import 'package:hatofit/utils/snackbar.dart';
+import 'package:VirtualCoach/app/models/user_model.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/utils/image_utils.dart';
+import 'package:VirtualCoach/utils/snackbar.dart';
 import 'package:logger/logger.dart';
 import 'package:video_player/video_player.dart';
 

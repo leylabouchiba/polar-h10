@@ -1,10 +1,10 @@
 // import 'package:flutter/material.dart';
 // import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 // import 'package:get/get.dart';
-// import 'package:hatofit/app/models/charts/steps_data.dart';
-// import 'package:hatofit/app/modules/dashboard/views/home/home_controller.dart';
-// import 'package:hatofit/app/themes/colors_constants.dart';
-// import 'package:hatofit/app/widget/icon_wrapper.dart';
+// import 'package:VirtualCoach/app/models/charts/steps_data.dart';
+// import 'package:VirtualCoach/app/modules/dashboard/views/home/home_controller.dart';
+// import 'package:VirtualCoach/app/themes/colors_constants.dart';
+// import 'package:VirtualCoach/app/widget/icon_wrapper.dart';
 // import 'package:intl/intl.dart';
 // import 'package:syncfusion_flutter_charts/charts.dart';
 

@@ -7,7 +7,7 @@ import ColorModeProvider from '@/components/color-mode-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Hatofit', // a exercise app
+  title: 'VirtualCoach', // a exercise app
   description: 'your personal trainer assistant',
 }
 
@@ -23,7 +23,7 @@ export default function RootLayout({
           <div className="flex flex-col min-h-screen">
             <div className="shadow border-b-2 border-white/[0.2]">
               <div className="flex flex-col max-w-screen-lg w-full mx-auto py-6">
-                <h1 className="text-4xl font-bold">HATOFIT</h1>
+                <h1 className="text-4xl font-bold">VirtualCoach</h1>
               </div>
             </div>
             <div className="flex-1 flex dark:bg-gray-800">
@@ -34,7 +34,7 @@ export default function RootLayout({
             <div className="shadow border-b-2 border-white/[0.2] dark:bg-gray-950/[0.7]">
               <div className="flex flex-col max-w-screen-lg w-full mx-auto py-6">
                 <div className="flex justify-between items-center text-gray-400 text-sm">
-                  <div>&copy; 2023 Hatofit all rights reserved</div>
+                  <div>&copy; 2023 VirtualCoach all rights reserved</div>
                 </div>
               </div>
             </div>

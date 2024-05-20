@@ -1,4 +1,4 @@
-# hatofit
+# VirtualCoach
 
 A new Flutter project.
 

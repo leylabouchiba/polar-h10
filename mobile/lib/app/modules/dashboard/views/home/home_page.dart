@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/home_controller.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/views/bmi_chart_widget.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/views/calories_chart_widget.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/views/exercise_now_widget.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/views/hr_lines_chart.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/views/mood_picker_widget.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/themes/app_theme.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/app/widget/appBar/custom_app_bar.dart';
-import 'package:hatofit/app/widget/icon_wrapper.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/home_controller.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/views/bmi_chart_widget.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/views/calories_chart_widget.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/views/exercise_now_widget.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/views/hr_lines_chart.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/views/mood_picker_widget.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/themes/app_theme.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/widget/appBar/custom_app_bar.dart';
+import 'package:VirtualCoach/app/widget/icon_wrapper.dart';
+import 'package:vibration/vibration.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class HomePage extends GetView<HomeController> {
   const HomePage({Key? key}) : super(key: key);
@@ -36,6 +38,8 @@ class HomePage extends GetView<HomeController> {
             itemBuilder: (_, i) => Column(
               children: [
                 Obx(() {
+                  final player = AudioPlayer();
+
                   final dvcs = bleService.detectedDevices
                       .where((p0) => p0.isConnect.value == true)
                       .toList();
@@ -47,6 +51,36 @@ class HomePage extends GetView<HomeController> {
                       final device = dvcs[index];
                       return Obx(() {
                         controller.findPercent(device.hr.value);
+                        // Check if heart rate exceeds 80
+                        if (device.hr.value > 90) {
+                          // Afficher la boîte de dialogue d'alerte
+                          showDialog(
+                            context: context,
+                            builder: (BuildContext context) {
+                              return AlertDialog(
+                                title: Text('Alert'),
+                                content: Text(
+                                    "Attention, gents! Heart rate above 90 bpm! Take a breather, prioritize your health. 🌟"),
+                                actions: <Widget>[
+                                  TextButton(
+                                    onPressed: () {
+                                      Navigator.of(context).pop();
+                                    },
+                                    child: Text('OK'),
+                                  ),
+                                ],
+                              );
+                            },
+                          );
+
+                          // Jouer le son d'alerte
+                          player.setSource(
+                              AssetSource('assets/videos/attention.mp3'));
+
+                          // Faire vibrer le périphérique
+                          Vibration.vibrate(duration: 1000);
+                        }
+
                         return Container(
                           padding: const EdgeInsets.all(16),
                           margin: const EdgeInsets.symmetric(
@@ -269,20 +303,20 @@ class HomePage extends GetView<HomeController> {
                   ],
                 ),
                 SizedBox(height: Get.height * 0.01),
-                Padding(
-                  padding: const EdgeInsets.all(14),
-                  child: Align(
-                      alignment: Alignment.centerLeft,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            'Trends',
-                            style: Theme.of(context).textTheme.displaySmall,
-                          ),
-                        ],
-                      )),
-                ),
+                //Padding(
+                // padding: const EdgeInsets.all(14),
+                //  child: Align(
+                //     alignment: Alignment.centerLeft,
+                //    child: Row(
+                //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                // children: [
+                //Text(
+                // 'Trends',
+                //style: Theme.of(context).textTheme.displaySmall,
+                // ),
+                //     ],
+                //  )),
+                //   ),
                 SizedBox(height: Get.height * 0.01),
                 // const StepsChartWidget(),
                 // SizedBox(height: Get.height * 0.01),

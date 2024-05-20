@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/polar_device.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/utils/snackbar.dart';
+import 'package:VirtualCoach/app/models/polar_device.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/utils/snackbar.dart';
 
 class DeviceIntegrationPage extends StatefulWidget {
   const DeviceIntegrationPage({super.key});

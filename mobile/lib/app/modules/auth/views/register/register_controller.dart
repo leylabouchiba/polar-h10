@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/user_model.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/utils/image_picker.dart';
-import 'package:hatofit/utils/image_utils.dart';
+import 'package:VirtualCoach/app/models/user_model.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/utils/image_picker.dart';
+import 'package:VirtualCoach/utils/image_utils.dart';
 
 class RegisterController extends GetxController {
   final formKey = GlobalKey<FormState>();

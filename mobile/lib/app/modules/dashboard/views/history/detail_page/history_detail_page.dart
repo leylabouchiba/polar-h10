@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/report_model.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/utils/mood_utils.dart';
+import 'package:VirtualCoach/app/models/report_model.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/utils/mood_utils.dart';
 import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 

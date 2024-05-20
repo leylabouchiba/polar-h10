@@ -1,12 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/routes/app_pages.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/themes/app_theme.dart';
+import 'package:VirtualCoach/app/routes/app_pages.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/themes/app_theme.dart';
 import 'package:keep_screen_on/keep_screen_on.dart';
 
 import 'firebase_options.dart';
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
     final store = Get.find<PreferencesService>();
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'HatoFit',
+      title: 'VirtualCoach',
       initialRoute: AppRoutes.splash,
       getPages: AppPages.list,
       theme: AppTheme.lightTheme,

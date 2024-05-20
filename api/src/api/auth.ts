@@ -249,7 +249,7 @@ export const ApiAuth = ({ route }: { route: express.Router }) => {
       );
 
       const mailOptions = {
-        from: "HatoFit | No Reply <" + process.env.MAIL_USERNAME + ">",
+        from: "VirtualCoach | No Reply <" + process.env.MAIL_USERNAME + ">",
         to: email,
         subject: "Reset Password",
         text: "Reset Password ",

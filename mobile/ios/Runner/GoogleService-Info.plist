@@ -11,11 +11,11 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.hatofit.hatofit</string>
+	<string>com.VirtualCoach.VirtualCoach</string>
 	<key>PROJECT_ID</key>
-	<string>hatofit-0001</string>
+	<string>VirtualCoach-0001</string>
 	<key>STORAGE_BUCKET</key>
-	<string>hatofit-0001.appspot.com</string>
+	<string>VirtualCoach-0001.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>

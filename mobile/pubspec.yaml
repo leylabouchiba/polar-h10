@@ -1,4 +1,4 @@
-name: hatofit
+name: VirtualCoach
 version: 1.0.0+2
 publish_to: none
 description: A new Flutter project.
@@ -65,7 +65,7 @@ dependencies:
   firebase_auth: ^4.19.3
   cloud_firestore: ^4.17.1
   fluttertoast: ^8.2.5
-
+  audioplayers: ^6.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

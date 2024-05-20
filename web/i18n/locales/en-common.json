@@ -9,7 +9,7 @@
     }
   },
   "index": {
-    "description": "Hatofit is a platform that helps you to be fit and healthy, help you to track and monitoring your health.",
+    "description": "VirtualCoach is a platform that helps you to be fit and healthy, help you to track and monitoring your health.",
     "start": "Start Now",
     "login": "Login"
   },
@@ -29,7 +29,7 @@
         "BMI": "BMI",
         "BMI Status": "BMI Status"
       },
-      "welcome": "Welcome to Hatofit Dashboard"
+      "welcome": "Welcome to VirtualCoach Dashboard"
     }
   }
 }

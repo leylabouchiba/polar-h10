@@ -34,7 +34,7 @@ export default function Navbar() {
     <div className="bg-gray-100 dark:bg-black h-[72px] border-b-2 border-red-500/30 shadow">
       <Container className="flex items-center h-full justify-between">
         <div className="flex items-center">
-          <Link href="/" className="cursor-pointer font-mono text-xl font-bold">HATOFIT</Link>
+          <Link href="/" className="cursor-pointer font-mono text-xl font-bold">VirtualCoach</Link>
         </div>
         <div className="flex items-center gap-3">
           {(status !== 'authenticated' && !data) && (

@@ -9,7 +9,7 @@
     }
   },
   "index": {
-    "description": "Hatofit adalah platform yang membantu untuk belolahraga dan healty",
+    "description": "VirtualCoach adalah platform yang membantu untuk belolahraga dan healty",
     "start": "Mulai Sekarang",
     "login": "Masuk"
   },
@@ -29,7 +29,7 @@
         "BMI": "BMI",
         "BMI Status": "BMI Status"
       },
-      "welcome": "Selamat Datang di Hatofit"
+      "welcome": "Selamat Datang di VirtualCoach"
     }
   }
 }

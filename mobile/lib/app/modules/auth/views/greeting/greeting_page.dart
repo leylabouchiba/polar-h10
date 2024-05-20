@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
 
 class GreetingPage extends StatelessWidget {
   const GreetingPage({super.key});
@@ -36,7 +36,7 @@ class GreetingPage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.only(bottom: 84),
               child: SvgPicture.asset(
-                'assets/images/hero.svg',
+                'assets/images/logo/Logo.png',
                 width: Get.width * 0.75,
               ),
             ),

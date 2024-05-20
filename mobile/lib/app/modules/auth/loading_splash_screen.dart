@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/services/storage_service.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/services/storage_service.dart';
 import 'package:intl/intl.dart';
 
 class LoadingSplashScreen extends StatelessWidget {

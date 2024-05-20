@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/charts/hr_widget.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/models/charts/hr_widget.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
 import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_charts/charts.dart'; // Import Syncfusion Charts package
 

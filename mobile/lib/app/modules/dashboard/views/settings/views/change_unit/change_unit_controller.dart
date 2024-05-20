@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/user_model.dart';
-import 'package:hatofit/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/models/user_model.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
 
 import '../../../../../../services/preferences_service.dart';
 
@@ -49,7 +49,7 @@ class ChangeUnitController extends GetxController {
   void saveUserInfo() async {
     final res = await InternetService()
         .updateMetrices(userHeight.value, userWeight.value, metricUnits);
- 
+
     if (res.body['success'] == true) {
       store.user!.height = userHeight.value;
       store.user!.weight = userWeight.value;

@@ -9,7 +9,7 @@ export default async function LoginPage() {
 
   return (
     <main className="flex flex-col justify-center items-center min-h-[calc(100vh_-_72px)] pb-[72px]">
-      <div className="text-3xl font-bold text-gray-100">Log in to Hatofit</div>
+      <div className="text-3xl font-bold text-gray-100">Log in to VirtualCoach</div>
       <LoginForm />
     </main>
   )

@@ -1,5 +1,5 @@
-import 'package:hatofit/app/models/exercise_model.dart';
-import 'package:hatofit/app/models/session_model.dart';
+import 'package:VirtualCoach/app/models/exercise_model.dart';
+import 'package:VirtualCoach/app/models/session_model.dart';
 
 List<ExerciseModel> exerciseModelFromJson(List<dynamic> data) =>
     data.map<ExerciseModel>((json) {

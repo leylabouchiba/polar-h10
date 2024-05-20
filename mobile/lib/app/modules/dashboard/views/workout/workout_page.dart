@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/workout/workout_controller.dart';
-import 'package:hatofit/app/widget/appBar/custom_app_bar.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/workout/workout_controller.dart';
+import 'package:VirtualCoach/app/widget/appBar/custom_app_bar.dart';
 
 class WorkoutPage extends GetView<WorkoutController> {
   const WorkoutPage({super.key});

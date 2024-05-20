@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/settings/setting_controller.dart';
-import 'package:hatofit/app/modules/dashboard/views/settings/views/device_integration/device_integration_page.dart';
-import 'package:hatofit/app/modules/dashboard/views/settings/views/setting_list_tile_widget.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/app/widget/appBar/custom_app_bar.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/settings/setting_controller.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/settings/views/device_integration/device_integration_page.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/settings/views/setting_list_tile_widget.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/widget/appBar/custom_app_bar.dart';
 
 class SettingPage extends GetView<SettingController> {
   const SettingPage({Key? key}) : super(key: key);
@@ -60,7 +60,7 @@ class SettingPage extends GetView<SettingController> {
                                 color: Colors.white,
                                 image: DecorationImage(
                                   image: FileImage(File(
-                                      '/storage/emulated/0/Android/data/com.hatofit.hatofit/files/photo-profile.jpg')),
+                                      '/storage/emulated/0/Android/data/com.VirtualCoach.VirtualCoach/files/photo-profile.jpg')),
                                   fit: BoxFit.cover,
                                 ),
                               ),

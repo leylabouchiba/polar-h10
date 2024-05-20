@@ -3,11 +3,11 @@ import Link from "next/link";
 
 // metadata
 export const metadata: Metadata = {
-  title: "Hatofit Privacy Policies",
+  title: "VirtualCoach Privacy Policies",
   description:
-    "Hatofit Privacy Policy - Learn how we collect, use, and protect your personal information in the Hatofit health and fitness application.",
+    "VirtualCoach Privacy Policy - Learn how we collect, use, and protect your personal information in the VirtualCoach health and fitness application.",
   keywords: [
-    "Hatofit",
+    "VirtualCoach",
     "privacy policy",
     "health app",
     "fitness app",
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     "personal information",
     "health data",
   ],
-  applicationName: "Hatofit",
+  applicationName: "VirtualCoach",
   authors: [
     {
-      name: "Hatofit",
-      url: "mailto:hatofit@gmail.com",
+      name: "VirtualCoach",
+      url: "mailto:VirtualCoach@gmail.com",
     },
   ],
 };
@@ -30,7 +30,7 @@ export default function PrivacyPoliciesPage() {
       <section>
         <h2>1. Introduction</h2>
         <p>
-          Welcome to Hatofit, a health and fitness application. This Privacy
+          Welcome to VirtualCoach, a health and fitness application. This Privacy
           Policy explains how we collect, use, and safeguard your personal
           information.
         </p>
@@ -38,7 +38,7 @@ export default function PrivacyPoliciesPage() {
 
       <section>
         <h2>2. Information We Collect</h2>
-        <p>When you use Hatofit, we may collect the following information:</p>
+        <p>When you use VirtualCoach, we may collect the following information:</p>
         <ul>
           <li>
             <strong>Personal Information:</strong> Name, email, date of birth,
@@ -59,7 +59,7 @@ export default function PrivacyPoliciesPage() {
           <li>
             <strong>User Authentication and Account Management:</strong> To
             create and manage user accounts, allowing you to log in and use
-            Hatofit.
+            VirtualCoach.
           </li>
           <li>
             <strong>Real-time Display of Heart Rate:</strong> To provide you
@@ -80,7 +80,7 @@ export default function PrivacyPoliciesPage() {
           </li>
           <li>
             <strong>Optional Google Fit Integration:</strong> If you choose to
-            connect Hatofit to Google Fit, additional health and fitness data
+            connect VirtualCoach to Google Fit, additional health and fitness data
             may be processed as permitted by the Google Fit API. This
             integration is optional, and you can manage the permissions within
             the app settings.
@@ -101,7 +101,7 @@ export default function PrivacyPoliciesPage() {
       <section>
         <h2>5. Permissions</h2>
         <p>
-          The Hatofit app requires the following permissions on your device, as
+          The VirtualCoach app requires the following permissions on your device, as
           described in the AndroidManifest.xml:
         </p>
         <ul>
@@ -147,7 +147,7 @@ export default function PrivacyPoliciesPage() {
       <section>
         <h2>6. Optional Google Fit Integration</h2>
         <p>
-          If you choose to connect your Hatofit app to Google Fit, we may
+          If you choose to connect your VirtualCoach app to Google Fit, we may
           collect and process additional health and fitness data as permitted by
           the Google Fit API. This integration is optional, and you can manage
           the permissions within the app settings.
@@ -166,7 +166,7 @@ export default function PrivacyPoliciesPage() {
 
       <section>
         <h2>8. User Rights</h2>
-        <p>As a user of Hatofit, you have the following rights:</p>
+        <p>As a user of VirtualCoach, you have the following rights:</p>
         <ul>
           <li>
             <strong>Access:</strong> You can request access to the personal
@@ -194,7 +194,7 @@ export default function PrivacyPoliciesPage() {
         <p>
           To exercise these rights or if you have any questions or concerns
           about our Privacy Policy, please contact us
-          <Link href="mailto:hatofit@gmail.com" style={{ color: "blue" }}>
+          <Link href="mailto:VirtualCoach@gmail.com" style={{ color: "blue" }}>
             Google e-Mail
           </Link>
         </p>
@@ -205,7 +205,7 @@ export default function PrivacyPoliciesPage() {
         <p>
           If you have any questions or concerns about our Privacy Policy, please
           contact us at{" "}
-          <Link href="mailto:hatofit@gmail.com" style={{ color: "blue" }}>
+          <Link href="mailto:VirtualCoach@gmail.com" style={{ color: "blue" }}>
             Google e-Mail
           </Link>
         </p>

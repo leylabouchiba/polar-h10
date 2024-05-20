@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:hatofit/utils/time_utils.dart';
+import 'package:VirtualCoach/utils/time_utils.dart';
 import 'package:intl/intl.dart';
 
 import '../../../../services/internet_service.dart';

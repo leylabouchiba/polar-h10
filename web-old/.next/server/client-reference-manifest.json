@@ -91,7 +91,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/app-router.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -99,7 +99,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -107,7 +107,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/error-boundary.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -115,7 +115,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -123,7 +123,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -131,7 +131,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -139,7 +139,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -147,7 +147,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -155,7 +155,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -163,7 +163,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -171,7 +171,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -179,7 +179,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -187,7 +187,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -195,7 +195,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -203,7 +203,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/layout-router.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -211,7 +211,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -219,7 +219,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -227,7 +227,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -235,7 +235,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -243,7 +243,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -251,7 +251,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/packages/web/src/components/color-mode-provider.tsx": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/packages/web/src/components/color-mode-provider.tsx": {
       "id": "(app-client)/./src/components/color-mode-provider.tsx",
       "name": "*",
       "chunks": [
@@ -259,7 +259,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/packages/web/src/lib/use-color-mode.tsx": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/packages/web/src/lib/use-color-mode.tsx": {
       "id": "(app-client)/./src/lib/use-color-mode.tsx",
       "name": "*",
       "chunks": [
@@ -267,7 +267,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/packages/web/src/lib/use-local-storage.tsx": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/packages/web/src/lib/use-local-storage.tsx": {
       "id": "(app-client)/./src/lib/use-local-storage.tsx",
       "name": "*",
       "chunks": [
@@ -275,7 +275,7 @@
       ],
       "async": false
     },
-    "/Users/viandwi24/projects/learn/hatofit/packages/web/src/app/login/section.tsx": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/packages/web/src/app/login/section.tsx": {
       "id": "(app-client)/./src/app/login/section.tsx",
       "name": "*",
       "chunks": [
@@ -285,16 +285,16 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/viandwi24/projects/learn/hatofit/packages/web/src/app/layout": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/packages/web/src/app/layout": {
       "modules": [
-        "/Users/viandwi24/projects/learn/hatofit/packages/web/src/app/globals.css",
-        "/Users/viandwi24/projects/learn/hatofit/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+        "/Users/viandwi24/projects/learn/VirtualCoach/packages/web/src/app/globals.css",
+        "/Users/viandwi24/projects/learn/VirtualCoach/node_modules/.pnpm/next@13.4.7_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
       ],
       "files": [
         "static/css/app/layout.css"
       ]
     },
-    "/Users/viandwi24/projects/learn/hatofit/packages/web/src/app/login/page": {
+    "/Users/viandwi24/projects/learn/VirtualCoach/packages/web/src/app/login/page": {
       "modules": [],
       "files": []
     }

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/user_model.dart';
+import 'package:VirtualCoach/app/models/user_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 enum _Key {

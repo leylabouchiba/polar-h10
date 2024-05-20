@@ -15,7 +15,7 @@
   \*************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"layout":{"navbar":{"menu":{"dashboard":"Beranda","setting":"Pengaturan","logout":"Keluar"}}},"index":{"description":"Hatofit adalah platform yang membantu untuk belolahraga dan healty","start":"Mulai Sekarang","login":"Masuk"},"dashboard":{"sidebar":{"menu":{"dashboard":"Beranda","my_exercises":"Olahraga Saya","shared_exercises":"Olahraga Dibagikan","company":"Perusahaan","settings":"Pengaturan"}},"page":{"widgets":{"Calories":"Kalori","BMI":"BMI","BMI Status":"BMI Status"},"welcome":"Selamat Datang di Hatofit"}}}');
+module.exports = JSON.parse('{"layout":{"navbar":{"menu":{"dashboard":"Beranda","setting":"Pengaturan","logout":"Keluar"}}},"index":{"description":"VirtualCoach adalah platform yang membantu untuk belolahraga dan healty","start":"Mulai Sekarang","login":"Masuk"},"dashboard":{"sidebar":{"menu":{"dashboard":"Beranda","my_exercises":"Olahraga Saya","shared_exercises":"Olahraga Dibagikan","company":"Perusahaan","settings":"Pengaturan"}},"page":{"widgets":{"Calories":"Kalori","BMI":"BMI","BMI Status":"BMI Status"},"welcome":"Selamat Datang di VirtualCoach"}}}');
 
 /***/ })
 

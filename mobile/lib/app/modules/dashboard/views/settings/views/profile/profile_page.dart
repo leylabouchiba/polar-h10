@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/settings/views/profile/profile_controller.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/settings/views/profile/profile_controller.dart';
 
 class ProfilePage extends GetView<ProfileController> {
   const ProfilePage({Key? key}) : super(key: key);

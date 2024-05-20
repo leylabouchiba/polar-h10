@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
 import 'package:intl/intl.dart';
 
 class MoodController extends GetxController {
@@ -14,7 +14,7 @@ class MoodController extends GetxController {
       'date': DateFormat('d MMMM yyyy').format(DateTime.now()),
     };
     selectedMood.value = mood;
-   }
+  }
 
   @override
   void onInit() {

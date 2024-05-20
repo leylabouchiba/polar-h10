@@ -17,7 +17,7 @@ exports.modules = {
   \*************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"layout":{"navbar":{"menu":{"dashboard":"Dashboard","setting":"Setting","logout":"Logout"}}},"index":{"description":"Hatofit is a platform that helps you to be fit and healthy, help you to track and monitoring your health.","start":"Start Now","login":"Login"},"dashboard":{"sidebar":{"menu":{"dashboard":"Dashboard","my_exercises":"My Exercices","shared_exercises":"Shared Exercices","company":"Company","settings":"Settings"}},"page":{"widgets":{"Calories":"Calories","BMI":"BMI","BMI Status":"BMI Status"},"welcome":"Welcome to Hatofit Dashboard"}}}');
+module.exports = JSON.parse('{"layout":{"navbar":{"menu":{"dashboard":"Dashboard","setting":"Setting","logout":"Logout"}}},"index":{"description":"VirtualCoach is a platform that helps you to be fit and healthy, help you to track and monitoring your health.","start":"Start Now","login":"Login"},"dashboard":{"sidebar":{"menu":{"dashboard":"Dashboard","my_exercises":"My Exercices","shared_exercises":"Shared Exercices","company":"Company","settings":"Settings"}},"page":{"widgets":{"Calories":"Calories","BMI":"BMI","BMI Status":"BMI Status"},"welcome":"Welcome to VirtualCoach Dashboard"}}}');
 
 /***/ })
 

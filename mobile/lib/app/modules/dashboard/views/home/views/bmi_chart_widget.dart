@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/home_controller.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/app/widget/icon_wrapper.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/home_controller.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/widget/icon_wrapper.dart';
 
 class BMIChartWidget extends GetView<HomeController> {
   const BMIChartWidget({super.key});

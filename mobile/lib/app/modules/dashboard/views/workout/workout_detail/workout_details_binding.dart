@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/workout/workout_detail/workout_details_controller.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/workout/workout_detail/workout_details_controller.dart';
 
 class WorkoutDetailsBinding extends Bindings {
   @override

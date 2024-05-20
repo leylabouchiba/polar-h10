@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/charts/hr_widget.dart';
-import 'package:hatofit/app/models/report_model.dart';
-import 'package:hatofit/app/modules/dashboard/views/history/history_controller.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/utils/calories_utils.dart';
-import 'package:hatofit/utils/hr_zone.dart';
+import 'package:VirtualCoach/app/models/charts/hr_widget.dart';
+import 'package:VirtualCoach/app/models/report_model.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/history/history_controller.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/utils/calories_utils.dart';
+import 'package:VirtualCoach/utils/hr_zone.dart';
 // import 'package:health/health.dart';
 import 'package:intl/intl.dart';
 

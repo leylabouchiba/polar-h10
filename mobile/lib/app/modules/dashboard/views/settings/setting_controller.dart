@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
 
 import '../../../../services/preferences_service.dart';
 

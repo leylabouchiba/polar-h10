@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/settings/setting_controller.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/settings/setting_controller.dart';
 
 class SettingBinding extends Bindings {
   @override

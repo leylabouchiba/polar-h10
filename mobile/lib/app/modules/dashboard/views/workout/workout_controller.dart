@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/exercise_model.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/services/internet_service.dart';
+import 'package:VirtualCoach/app/models/exercise_model.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
 
 class WorkoutController extends GetxController {
   final listExercise = <ExerciseModel>[].obs;

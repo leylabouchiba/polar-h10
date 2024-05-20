@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/app/widget/icon_wrapper.dart';
-import 'package:hatofit/utils/snackbar.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/widget/icon_wrapper.dart';
+import 'package:VirtualCoach/utils/snackbar.dart';
 
 class ExerciseNowWidget extends StatelessWidget {
   const ExerciseNowWidget({super.key});

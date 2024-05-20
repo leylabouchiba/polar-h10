@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/auth/views/forgot_password/forgot_password_controller.dart';
+import 'package:VirtualCoach/app/modules/auth/views/forgot_password/forgot_password_controller.dart';
 
 class ResetPasswordView extends GetView<ForgotPasswordController> {
   const ResetPasswordView({super.key});

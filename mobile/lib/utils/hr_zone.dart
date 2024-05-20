@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
 import 'package:lottie/lottie.dart';
 
 enum HrZoneType { VERYLIGHT, LIGHT, MODERATE, HARD, MAXIMUM }

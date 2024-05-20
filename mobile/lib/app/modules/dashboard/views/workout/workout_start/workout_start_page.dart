@@ -3,12 +3,12 @@ import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/exercise_model.dart';
-import 'package:hatofit/app/modules/dashboard/views/workout/workout_detail/workout_details_controller.dart';
-import 'package:hatofit/app/modules/dashboard/views/workout/workout_start/workout_start_controller.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/app/themes/app_theme.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/models/exercise_model.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/workout/workout_detail/workout_details_controller.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/workout/workout_start/workout_start_controller.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/app/themes/app_theme.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
 import 'package:lottie/lottie.dart';
 
 class WorkoutStartPage extends GetView<WorkoutStartController> {

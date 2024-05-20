@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/auth/views/login/login_controller.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/modules/auth/views/login/login_controller.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
 import 'package:video_player/video_player.dart';
 
 class LoginPage extends GetView<LoginController> {

@@ -6,7 +6,7 @@ export const Footer = () => {
     <div className="border-t border-gray-700">
       <Container className="flex items-center h-full justify-between py-4">
         <div>
-          &copy; 2023 Hatofit
+          &copy; 2023 VirtualCoach
         </div>
         <div>
           <LangSwitcher />

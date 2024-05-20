@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/exercise_model.dart';
-import 'package:hatofit/app/models/session_model.dart';
-import 'package:hatofit/app/models/user_model.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/services/storage_service.dart';
+import 'package:VirtualCoach/app/models/exercise_model.dart';
+import 'package:VirtualCoach/app/models/session_model.dart';
+import 'package:VirtualCoach/app/models/user_model.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/services/storage_service.dart';
 import 'package:logger/logger.dart';
 
 class InternetService extends GetConnect {
@@ -24,7 +24,7 @@ class InternetService extends GetConnect {
     return this;
   }
 
-  static const String _base = "http://192.168.1.55:3000/api";
+  static const String _base = "https://602a-197-1-124-234.ngrok-free.app/api";
   // static const String _base = 'http://192.168.124.169:3000/api';
   static const String _sesion = '/session';
   static const String _exercise = '/exercise';

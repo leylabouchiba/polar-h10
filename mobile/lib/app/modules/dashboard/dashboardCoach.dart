@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/dashboard_controller.dart';
-import 'package:hatofit/app/modules/dashboard/dashboard_controllerCoach.dart';
-import 'package:hatofit/app/modules/dashboard/views/history/history_page.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/home_page.dart';
-import 'package:hatofit/app/modules/dashboard/views/list%20user/FetchAllUsersPage%20.dart';
-import 'package:hatofit/app/modules/dashboard/views/settings/setting_page.dart';
-import 'package:hatofit/app/modules/dashboard/views/workout/workout_page.dart';
+import 'package:VirtualCoach/app/modules/dashboard/dashboard_controller.dart';
+import 'package:VirtualCoach/app/modules/dashboard/dashboard_controllerCoach.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/history/history_page.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/home_page.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/list%20user/FetchAllUsersPage%20.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/settings/setting_page.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/workout/workout_page.dart';
 
 class dashboardCoach extends StatelessWidget {
   const dashboardCoach({super.key});
@@ -21,7 +21,7 @@ class dashboardCoach extends StatelessWidget {
             child: IndexedStack(
               index: controller.tabIndex,
               children: [
-                FetchAllUsersPage (),
+                FetchAllUsersPage(),
                 const SettingPage(),
               ],
             ),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/auth/views/forgot_password/views/reset_password_view.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/utils/snackbar.dart';
+import 'package:VirtualCoach/app/modules/auth/views/forgot_password/views/reset_password_view.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/utils/snackbar.dart';
 
 class ForgotPasswordController extends GetxController {
   final emailController = TextEditingController();

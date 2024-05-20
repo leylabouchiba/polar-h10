@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/dashboard/views/settings/views/change_unit/change_unit_controller.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/settings/views/change_unit/change_unit_controller.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
 import 'package:horizontal_picker/horizontal_picker.dart';
 
 class ChangeUnitPage extends GetView<ChangeUnitController> {

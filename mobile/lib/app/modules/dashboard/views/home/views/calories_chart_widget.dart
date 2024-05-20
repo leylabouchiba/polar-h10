@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/charts/calories_data.dart';
-import 'package:hatofit/app/modules/dashboard/views/home/home_controller.dart';
-import 'package:hatofit/app/services/preferences_service.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/app/widget/icon_wrapper.dart';
+import 'package:VirtualCoach/app/models/charts/calories_data.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/home/home_controller.dart';
+import 'package:VirtualCoach/app/services/preferences_service.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/widget/icon_wrapper.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class CaloriesChartWidget extends GetView<HomeController> {
@@ -13,7 +13,7 @@ class CaloriesChartWidget extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     final width = Get.width * 0.45;
-    final height =Get.height * 0.24;
+    final height = Get.height * 0.24;
     return Container(
         width: width,
         height: height,

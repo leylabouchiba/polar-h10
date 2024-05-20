@@ -62,7 +62,7 @@ class DefaultFirebaseOptions {
     projectId: 'app-polar-h10-3afd1',
     databaseURL: 'https://app-polar-h10-3afd1-default-rtdb.firebaseio.com',
     storageBucket: 'app-polar-h10-3afd1.appspot.com',
-    iosBundleId: 'com.hatofit.hatofit',
+    iosBundleId: 'com.VirtualCoach.VirtualCoach',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
@@ -75,5 +75,4 @@ class DefaultFirebaseOptions {
     storageBucket: 'app-polar-h10-3afd1.appspot.com',
     measurementId: 'G-KCY8MJN4MR',
   );
-
 }

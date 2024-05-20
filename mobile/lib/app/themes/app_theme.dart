@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
 
 class ThemeManager extends GetxController {
   final _isDarkMode = Get.isDarkMode;

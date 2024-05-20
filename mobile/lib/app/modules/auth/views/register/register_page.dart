@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/modules/auth/views/register/register_controller.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/modules/auth/views/register/register_controller.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
 
 class RegisterPage extends GetView<RegisterController> {
   const RegisterPage({super.key});

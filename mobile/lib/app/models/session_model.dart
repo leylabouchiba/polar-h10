@@ -1,4 +1,4 @@
-import 'package:hatofit/app/models/exercise_model.dart';
+import 'package:VirtualCoach/app/models/exercise_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'session_model.g.dart';

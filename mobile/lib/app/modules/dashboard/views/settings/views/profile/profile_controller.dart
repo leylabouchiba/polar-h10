@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/user_model.dart';
-import 'package:hatofit/app/services/internet_service.dart';
-import 'package:hatofit/utils/image_picker.dart';
-import 'package:hatofit/utils/image_utils.dart';
-import 'package:hatofit/utils/snackbar.dart';
+import 'package:VirtualCoach/app/models/user_model.dart';
+import 'package:VirtualCoach/app/services/internet_service.dart';
+import 'package:VirtualCoach/utils/image_picker.dart';
+import 'package:VirtualCoach/utils/image_utils.dart';
+import 'package:VirtualCoach/utils/snackbar.dart';
 import 'package:intl/intl.dart';
 
 import '../../../../../../services/preferences_service.dart';
@@ -44,7 +44,7 @@ class ProfileController extends GetxController {
   @override
   void onInit() async {
     pickedImage.value = File(
-        '/storage/emulated/0/Android/data/com.hatofit.hatofit/files/photo-profile.jpg');
+        '/storage/emulated/0/Android/data/com.VirtualCoach.VirtualCoach/files/photo-profile.jpg');
     final firstName = store.user!.firstName!;
     final lastName = store.user!.lastName!;
     fullNameController.value.text = '$firstName $lastName';

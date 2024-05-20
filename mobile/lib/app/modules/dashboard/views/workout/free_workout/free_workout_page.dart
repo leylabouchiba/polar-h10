@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/heart_rate.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
-import 'package:hatofit/utils/hr_zone.dart';
+import 'package:VirtualCoach/app/models/heart_rate.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/utils/hr_zone.dart';
 import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 

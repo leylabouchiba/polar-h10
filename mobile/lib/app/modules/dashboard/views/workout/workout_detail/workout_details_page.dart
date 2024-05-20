@@ -2,10 +2,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/exercise_model.dart';
-import 'package:hatofit/app/modules/dashboard/views/workout/workout_detail/workout_details_controller.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/themes/colors_constants.dart';
+import 'package:VirtualCoach/app/models/exercise_model.dart';
+import 'package:VirtualCoach/app/modules/dashboard/views/workout/workout_detail/workout_details_controller.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/themes/colors_constants.dart';
 import 'package:lottie/lottie.dart';
 
 class WorkoutDetailsPage extends GetView<WorkoutDetailsController> {

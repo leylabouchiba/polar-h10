@@ -2,13 +2,13 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hatofit/app/models/heart_rate.dart';
-import 'package:hatofit/app/routes/app_routes.dart';
-import 'package:hatofit/app/services/bluetooth_service.dart';
-import 'package:hatofit/utils/hr_zone.dart';
-import 'package:hatofit/utils/snackbar.dart';
-import 'package:hatofit/utils/streaming_utils.dart';
-import 'package:hatofit/utils/time_utils.dart';
+import 'package:VirtualCoach/app/models/heart_rate.dart';
+import 'package:VirtualCoach/app/routes/app_routes.dart';
+import 'package:VirtualCoach/app/services/bluetooth_service.dart';
+import 'package:VirtualCoach/utils/hr_zone.dart';
+import 'package:VirtualCoach/utils/snackbar.dart';
+import 'package:VirtualCoach/utils/streaming_utils.dart';
+import 'package:VirtualCoach/utils/time_utils.dart';
 import 'package:vibration/vibration.dart';
 
 class FreeWorkoutController extends GetxController {
