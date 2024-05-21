@@ -52,7 +52,7 @@ class HomePage extends GetView<HomeController> {
                       return Obx(() {
                         controller.findPercent(device.hr.value);
                         // Check if heart rate exceeds 80
-                        if (device.hr.value > 90) {
+                        if (device.hr.value > 95) {
                           // Afficher la boîte de dialogue d'alerte
                           showDialog(
                             context: context,
@@ -60,7 +60,7 @@ class HomePage extends GetView<HomeController> {
                               return AlertDialog(
                                 title: Text('Alert'),
                                 content: Text(
-                                    "Attention, gents! Heart rate above 90 bpm! Take a breather, prioritize your health. 🌟"),
+                                    "Attention, gents! Heart rate above 95 bpm! Take a breather, prioritize your health. 🌟"),
                                 actions: <Widget>[
                                   TextButton(
                                     onPressed: () {
@@ -259,6 +259,19 @@ class HomePage extends GetView<HomeController> {
                               ),
                             );
                     }),
+                SizedBox(height: Get.height * 0.01),
+
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const CaloriesChartWidget(),
+                    SizedBox(width: Get.height * 0.01),
+                    const BMIChartWidget(),
+                  ],
+                ),
+                const MoodPickerWidget(),
+                SizedBox(height: Get.height * 0.01),
+
                 Container(
                     height: MediaQuery.of(context).size.height * 0.4,
                     // width: width,
@@ -274,6 +287,7 @@ class HomePage extends GetView<HomeController> {
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: const ExerciseNowWidget()),
+
                 Padding(
                   padding: const EdgeInsets.all(14),
                   child: Align(
@@ -292,16 +306,7 @@ class HomePage extends GetView<HomeController> {
                         ],
                       )),
                 ),
-                const MoodPickerWidget(),
-                SizedBox(height: Get.height * 0.01),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const CaloriesChartWidget(),
-                    SizedBox(width: Get.height * 0.01),
-                    const BMIChartWidget(),
-                  ],
-                ),
+
                 SizedBox(height: Get.height * 0.01),
                 //Padding(
                 // padding: const EdgeInsets.all(14),

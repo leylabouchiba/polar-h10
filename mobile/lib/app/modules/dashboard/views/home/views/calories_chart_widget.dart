@@ -30,18 +30,18 @@ class CaloriesChartWidget extends GetView<HomeController> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Today Burn',
+                  'Calories',
                   style: Theme.of(context).textTheme.displaySmall,
                 ),
                 IconWrapper(
                   icon: Icons.local_fire_department,
-                  backgroundColor: ColorConstants.purple.withOpacity(0.35),
-                  iconColor: ColorConstants.purple,
+                  backgroundColor: Color.fromARGB(255, 205, 110, 33).withOpacity(0.35),
+                  iconColor: const Color.fromARGB(255, 223, 103, 82),
                 ),
               ],
             ),
             SizedBox(
-              height: height * 0.75,
+              height: height * 0.65,
               child: GetBuilder(
                   init: controller,
                   builder: (_) {
@@ -80,8 +80,8 @@ class CaloriesChartWidget extends GetView<HomeController> {
                           endAngle: 360,
                           pointColorMapper: (CaloriesData data, _) =>
                               data.x == 'Remaining'
-                                  ? ColorConstants.purple
-                                  : const Color.fromARGB(255, 141, 101, 194),
+                                  ? Color.fromARGB(255, 12, 225, 41)
+                                  : Color.fromARGB(255, 146, 194, 101),
                           enableTooltip: false,
                         ),
                       ],

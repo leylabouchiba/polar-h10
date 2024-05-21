@@ -24,8 +24,8 @@ class InternetService extends GetConnect {
     return this;
   }
 
-  static const String _base = "https://602a-197-1-124-234.ngrok-free.app/api";
-  // static const String _base = 'http://192.168.124.169:3000/api';
+  static const String _base = "https://f766-197-238-134-204.ngrok-free.app/api";
+  // static const String _base = 'https://savytravelservices.com/api//api';
   static const String _sesion = '/session';
   static const String _exercise = '/exercise';
   static const String _report = '/report';

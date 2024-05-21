@@ -25,8 +25,8 @@ class GreetingPage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 84),
               child: Image.asset(
                 Get.isDarkMode
-                    ? 'assets/images/logo/Logo.png'
-                    : 'assets/images/logo/Logo.png',
+                    ? 'assets/images/logo/logov.png'
+                    : 'assets/images/logo/logov.png',
                 width: Get.width * 0.8,
               ),
             ),
@@ -36,7 +36,7 @@ class GreetingPage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.only(bottom: 84),
               child: SvgPicture.asset(
-                'assets/images/logo/Logo.png',
+                'assets/images/logo/logov.png',
                 width: Get.width * 0.75,
               ),
             ),

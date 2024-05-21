@@ -37,8 +37,8 @@ class ExerciseNowWidget extends StatelessWidget {
             ),
             IconWrapper(
               icon: Icons.start,
-              iconColor: ColorConstants.crimsonRed,
-              backgroundColor: ColorConstants.crimsonRed.withOpacity(0.35),
+              iconColor: Color.fromARGB(255, 82, 225, 94),
+              backgroundColor: const Color.fromARGB(255, 82, 225, 120).withOpacity(0.35),
             ),
           ],
         ),
@@ -46,7 +46,7 @@ class ExerciseNowWidget extends StatelessWidget {
           height: 16,
         ),
         SvgPicture.asset(
-          'assets/images/icons8-yoga.svg',
+          'assets/images/yogat.svg',
           height: height * 0.65,
           colorFilter: ColorFilter.mode(
               Get.isDarkMode ? Colors.white : Colors.black, BlendMode.srcIn),
@@ -83,7 +83,7 @@ class ExerciseNowWidget extends StatelessWidget {
                 },
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(
-                      ColorConstants.crimsonRed),
+                      Color.fromARGB(255, 12, 139, 224)),
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     const RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(8)),
